@@ -149,12 +149,60 @@
   - GitHub上の画像実在確認済み。表情制作の現行限定参照として有効。
   - 直前の旧表情サンプルは旧試作として扱い、通常の制作参照には使わない。GitHubに旧画像の登録はない。
 
+### OUTFIT WORKING REFERENCES（画像アップロード待ち）
+- status: WORKING（5点すべて）
+- use_as_reference: limited（衣装の方向性・服と小物の候補に限る）
+- upload_status: PENDING_UPLOAD（5点）
+- location: `02_design_trials/`
+- notes: ユーザーが「とりあえずの衣装イメージとしてこの5点採用」と判断。衣装のイメージ資料として採用したもので、完成衣装・正式透過素材・顔や体型の正本ではない。画像のデザイン枠や説明文字は参照対象外。
+
+#### `02_design_trials/reina_outfit_smart_chic_working_v1.png`
+- status: WORKING
+- use_as_reference: limited（衣装案）
+- upload_status: PENDING_UPLOAD
+- label: スマートシック
+- scope: 前回C：黒系ジャケット・トップスと明るいパンツによる知的なきれいめスタイル
+- ignore: 顔・髪・目・体型の変更、資料装飾・ラベル・レイアウト、衣装細部の最終確定扱い
+
+#### `02_design_trials/reina_outfit_relaxed_casual_working_v1.png`
+- status: WORKING
+- use_as_reference: limited（衣装案）
+- upload_status: PENDING_UPLOAD
+- label: リラックスカジュアル
+- scope: 前回D：淡色ゆったりニットとショートパンツの休日スタイル
+- ignore: 顔・髪・目・体型の変更、資料装飾・ラベル・レイアウト、衣装細部の最終確定扱い
+
+#### `02_design_trials/reina_outfit_office_working_v1.png`
+- status: WORKING
+- use_as_reference: limited（衣装案）
+- upload_status: PENDING_UPLOAD
+- label: オフィススタイル
+- scope: 白シャツ・黒タイトスカート・タイツ・パンプスとバッグ等の小物
+- ignore: 顔・髪・目・体型の変更、資料装飾・ラベル・レイアウト、衣装細部の最終確定扱い
+
+#### `02_design_trials/reina_outfit_lavender_cardigan_working_v1.png`
+- status: WORKING
+- use_as_reference: limited（衣装案）
+- upload_status: PENDING_UPLOAD
+- label: ラベンダーカーディガン
+- scope: 淡い紫のカーディガン・キャミソール・明るいショートパンツ
+- ignore: 顔・髪・目・体型の変更、資料装飾・ラベル・レイアウト、衣装細部の最終確定扱い
+
+#### `02_design_trials/reina_outfit_black_knit_white_cargo_working_v1.png`
+- status: WORKING
+- use_as_reference: limited（衣装案）
+- upload_status: PENDING_UPLOAD
+- label: 黒ニット＋白カーゴ
+- scope: 黒のゆったりトップス・白ワイドカーゴパンツ・スニーカー・バッグ
+- ignore: 顔・髪・目・体型の変更、資料装飾・ラベル・レイアウト、衣装細部の最終確定扱い
+
 ### MASTER
 なし。正式透過素材は未制作。
 
 ### PENDING
 - 全体デザインは再構築中。直近の体型調整案は次工程の作業基準として採用（ファイル登録確認済み）。
 - 表情は控えめ表現版に方向性を移行。新画像のGitHub登録確認済み。
+- 衣装イメージ5点をWORKINGの限定参照として採用。画像本体はアップロード待ち。
 - 再構築後、残る APPROVED_REFERENCE 画像について、新デザインとの一致範囲を再確認し、必要に応じて以下のいずれかへ状態更新する：
   - APPROVED_REFERENCE 維持
   - scope限定
