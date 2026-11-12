@@ -93,3 +93,15 @@
 - `02_design_trials/reina_hair_half_up_front_back_working_v1.png` と `02_design_trials/reina_hair_low_bun_front_back_working_v1.png` をPENDING_UPLOADとして登録。
 - 状態はWORKING / limited reference（髪型の方向性のみ）。正式素材・MASTERではない。
 - ここでデザイン探索の一区切り。次の推奨工程は参照基準の整合性確認と正式三面図の作成。
+
+
+## 2026-11-12 — ヘアアレンジ2件の登録確認とお団子版の由来訂正
+- `reina_hair_half_up_front_back_working_v1.png`、`reina_hair_low_bun_front_back_working_v1.png` のGitHub上の実在・blob SHAを確認。PENDING_UPLOADを解除。
+- ユーザーから「お団子についてだけ、用意された画像と異なる版を意図的にアップロードした」と明示された。旧ZIPとの差異は不整合ではなく、ユーザー選択による差し替えとして扱う。
+- お団子画像のファイル名は旧案由来。画像内容やお団子の高さはファイル名ではなくGitHub登録画像で確認する。画素内容の同一性は未検証。
+- 2点ともWORKING / limited（髪型の方向性）を維持。MASTERにはしない。
+
+## 2026-11-12 — 正式制作フローの案内訂正
+- 以前の「次工程は正式三面図の作成」という案内は誤り。
+- 現行の順序は、STEP 4で基準を整理 → STEP 5で背景透過の独立した正面立ち絵、必要な側面・背面等を個別制作・承認 → STEP 6で承認済み素材から三面図・正式資料を組み立てる。
+- 旧記録は履歴として保持し、この訂正を現行方針とする。
