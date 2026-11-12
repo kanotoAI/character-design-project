@@ -67,3 +67,9 @@
 - 画像本体はPENDING_UPLOAD。アップロード確認まではGitHub登録済みとみなさない。
 - 状態はWORKING / limited reference（衣装方向性のみ）。正式衣装やMASTERへの昇格はしない。
 - 画像内の顔・髪・目・体型・装飾・文字は既存の承認基準を上書きしない。
+
+## 2026-11-12 — 衣装イメージ5点のアップロード確認
+- `02_design_trials/` の対象PNG 5ファイルについてGitHub上の存在とblob SHAを確認。
+- manifestの5件のupload_statusをVERIFIED_IN_GITHUBへ更新。
+- WORKING / limited reference（衣装方向性のみ）のまま継続。正式衣装・MASTERではない。
+- 次工程は衣装比較用の玲奈らしいポーズ検討。
