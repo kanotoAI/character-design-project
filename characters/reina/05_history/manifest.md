@@ -196,6 +196,51 @@
 - scope: 黒のゆったりトップス・白ワイドカーゴパンツ・スニーカー・バッグ
 - ignore: 顔・髪・目・体型の変更、資料装飾・ラベル・レイアウト、衣装細部の最終確定扱い
 
+### Bポーズ衣装比較6枚（採用済み／画像アップロード待ち）
+- status: WORKING（採用済みの衣装比較用作業参照。正式素材ではない）
+- use_as_reference: limited（Bポーズの立ち姿、5着の着用時イメージ、黒下着の比較基準に限定）
+- upload_status: PENDING_UPLOAD（6点）
+- location: `02_design_trials/`
+- source: 5着は「Bポーズ・5着比較」画像を5等分して上部タイトルを下部に移動したもの。下着は既存のBポーズ黒下着立ち絵を非生成的に整形したもの。
+- notes: ユーザーが6点を採用。全6枚を600×1480pxに統一。白背景、枠線・装飾なし。名称・イメージは下部のみ。原画の人物や服を描き直さない。
+- ignore: 顔・髪・目・体型の承認済み基準を上書きすること、完成衣装・MASTERとみなすこと、ポーズ以外の細部を最終確定とみなすこと。
+
+#### `02_design_trials/reina_pose_b_smart_chic_working_v1.png`
+- status: WORKING
+- use_as_reference: limited（Bポーズ衣装比較）
+- upload_status: PENDING_UPLOAD
+- label: スマートシック
+
+#### `02_design_trials/reina_pose_b_relaxed_casual_working_v1.png`
+- status: WORKING
+- use_as_reference: limited（Bポーズ衣装比較）
+- upload_status: PENDING_UPLOAD
+- label: リラックスカジュアル
+
+#### `02_design_trials/reina_pose_b_office_working_v1.png`
+- status: WORKING
+- use_as_reference: limited（Bポーズ衣装比較）
+- upload_status: PENDING_UPLOAD
+- label: オフィススタイル
+
+#### `02_design_trials/reina_pose_b_lavender_cardigan_working_v1.png`
+- status: WORKING
+- use_as_reference: limited（Bポーズ衣装比較）
+- upload_status: PENDING_UPLOAD
+- label: ラベンダーカーディガン
+
+#### `02_design_trials/reina_pose_b_black_knit_white_cargo_working_v1.png`
+- status: WORKING
+- use_as_reference: limited（Bポーズ衣装比較）
+- upload_status: PENDING_UPLOAD
+- label: 黒ニット＋白カーゴ
+
+#### `02_design_trials/reina_pose_b_black_underwear_working_v1.png`
+- status: WORKING
+- use_as_reference: limited（Bポーズ衣装比較）
+- upload_status: PENDING_UPLOAD
+- label: 黒下着・Bポーズ
+
 ### MASTER
 なし。正式透過素材は未制作。
 
@@ -203,6 +248,7 @@
 - 全体デザインは再構築中。直近の体型調整案は次工程の作業基準として採用（ファイル登録確認済み）。
 - 表情は控えめ表現版に方向性を移行。新画像のGitHub登録確認済み。
 - 衣装イメージ5点をWORKINGの限定参照として採用。GitHub上の5ファイル実在確認済み。
+- Bポーズ衣装比較6点は採用済み。画像本体のGitHubアップロード待ち。
 - 再構築後、残る APPROVED_REFERENCE 画像について、新デザインとの一致範囲を再確認し、必要に応じて以下のいずれかへ状態更新する：
   - APPROVED_REFERENCE 維持
   - scope限定
