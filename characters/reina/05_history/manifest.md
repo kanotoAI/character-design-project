@@ -241,6 +241,25 @@
 - upload_status: VERIFIED_IN_GITHUB
 - label: 黒下着・Bポーズ
 
+### ヘアアレンジ2案（画像アップロード待ち）
+- status: WORKING
+- use_as_reference: limited（髪型の方向性・前後から見たまとめ方に限定）
+- upload_status: PENDING_UPLOAD（2点）
+- location: `02_design_trials/`
+- source: 直前のヘアアレンジ正面・背面4体比較画像を左右に等分して抽出。画像内容の再生成・修正なし。
+- notes: ユーザーの「これもふたつにわけてアップできるように」に従い保存準備。髪型の探索・作業参照として扱い、最終髪型や正式立ち絵の決定とは区別する。
+- ignore: 顔・目・体型・下着の既存基準の上書き、下着の細部を最終確定とみなすこと。
+
+#### `02_design_trials/reina_hair_half_up_front_back_working_v1.png`
+- status: WORKING
+- use_as_reference: limited（ハーフアップ正面・背面の髪型）
+- upload_status: PENDING_UPLOAD
+
+#### `02_design_trials/reina_hair_low_bun_front_back_working_v1.png`
+- status: WORKING
+- use_as_reference: limited（低めのお団子正面・背面の髪型）
+- upload_status: PENDING_UPLOAD
+
 ### MASTER
 なし。正式透過素材は未制作。
 
@@ -249,6 +268,7 @@
 - 表情は控えめ表現版に方向性を移行。新画像のGitHub登録確認済み。
 - 衣装イメージ5点をWORKINGの限定参照として採用。GitHub上の5ファイル実在確認済み。
 - Bポーズ衣装比較6点は採用済み。画像本体のGitHub登録を確認済み。
+- ヘアアレンジ2案（ハーフアップ／低めのお団子）を画像アップロード待ちの限定WORKING資料として追加。
 - 再構築後、残る APPROVED_REFERENCE 画像について、新デザインとの一致範囲を再確認し、必要に応じて以下のいずれかへ状態更新する：
   - APPROVED_REFERENCE 維持
   - scope限定
