@@ -241,24 +241,26 @@
 - upload_status: VERIFIED_IN_GITHUB
 - label: 黒下着・Bポーズ
 
-### ヘアアレンジ2案（画像アップロード待ち）
-- status: WORKING
-- use_as_reference: limited（髪型の方向性・前後から見たまとめ方に限定）
-- upload_status: PENDING_UPLOAD（2点）
+### ヘアアレンジ2案（GitHub登録確認済み）
+- status: WORKING（2点とも）
+- use_as_reference: limited（髪型の方向性・正面／背面のまとめ方に限定）
+- upload_status: VERIFIED_IN_GITHUB（2点ともファイル実在とblob SHAを確認）
 - location: `02_design_trials/`
-- source: 直前のヘアアレンジ正面・背面4体比較画像を左右に等分して抽出。画像内容の再生成・修正なし。
-- notes: ユーザーの「これもふたつにわけてアップできるように」に従い保存準備。髪型の探索・作業参照として扱い、最終髪型や正式立ち絵の決定とは区別する。
-- ignore: 顔・目・体型・下着の既存基準の上書き、下着の細部を最終確定とみなすこと。
+- notes: ユーザーが2点をアップロード。お団子画像だけは、用意した2分割版とは異なる画像をユーザーが意図的にアップロードしたと明示。**GitHub上の画像を現行の作業参照とし、元のZIPとの差異は不整合・誤登録として扱わない。**
+- ignore: 顔・目・体型・下着の既存基準の上書き、髪型の最終確定、正式透過素材・MASTERへの昇格。
 
 #### `02_design_trials/reina_hair_half_up_front_back_working_v1.png`
 - status: WORKING
 - use_as_reference: limited（ハーフアップ正面・背面の髪型）
-- upload_status: PENDING_UPLOAD
+- upload_status: VERIFIED_IN_GITHUB
+- provenance: 既存の4体比較画像から非生成的に左右分割した版。
 
 #### `02_design_trials/reina_hair_low_bun_front_back_working_v1.png`
 - status: WORKING
-- use_as_reference: limited（低めのお団子正面・背面の髪型）
-- upload_status: PENDING_UPLOAD
+- use_as_reference: limited（お団子正面・背面の髪型）
+- upload_status: VERIFIED_IN_GITHUB
+- provenance: **ユーザーが意図的に別画像を選択してGitHubへアップロードした版**。ファイル名の `low_bun` や旧ZIPの内容だけで髪型の高さ・画像内容を断定しない。画像の具体的内容はGitHub登録版を基準に確認する。
+- notes: 旧ZIPの画像とは同一バイナリではないが、ユーザー意図による差し替え。画素レベルの内容比較は未実施。
 
 ### MASTER
 なし。正式透過素材は未制作。
@@ -268,7 +270,7 @@
 - 表情は控えめ表現版に方向性を移行。新画像のGitHub登録確認済み。
 - 衣装イメージ5点をWORKINGの限定参照として採用。GitHub上の5ファイル実在確認済み。
 - Bポーズ衣装比較6点は採用済み。画像本体のGitHub登録を確認済み。
-- ヘアアレンジ2案（ハーフアップ／低めのお団子）を画像アップロード待ちの限定WORKING資料として追加。
+- ヘアアレンジ2案（ハーフアップ／ユーザー選択のお団子画像）はGitHub登録確認済み。WORKINGの限定参照として扱う。
 - 再構築後、残る APPROVED_REFERENCE 画像について、新デザインとの一致範囲を再確認し、必要に応じて以下のいずれかへ状態更新する：
   - APPROVED_REFERENCE 維持
   - scope限定
@@ -286,8 +288,8 @@
 - G2 人格：概ね通過
 - G3 外見方向性：通過
 - G4 基準ビジュアル：進行中（目の詳細は承認済み。全体デザイン調整中）
-- G5 正式素材：未着手
-- G6 正式資料：未着手
+- G5 正式透過独立素材：未着手（正面基準立ち絵から開始し、必要な側面・背面を個別制作）
+- G6 正式資料・三面図の組み立て：未着手（G5で承認済みの独立素材を使用）
 - G7 最終登録：未着手
 
 ## 絶対維持事項
