@@ -86,3 +86,10 @@
 - manifestの6件のupload_statusをVERIFIED_IN_GITHUBへ更新。
 - WORKING / limited reference（衣装・Bポーズ比較用）のまま継続。正式素材・MASTERではない。
 - 次工程：玲奈のヘアアレンジ探索。初期比較画像はTRIAL扱い。毛先まで描く条件と顔・表情統一の再検討が必要。
+
+## 2026-11-12 — ヘアアレンジ2案の独立画像化・保存準備
+- ユーザーがヘアアレンジ比較（ハーフアップ、低めのお団子）の2分割・アップロード準備を依頼。
+- 既存の4体比較画像を左右に等分して各768×1024pxの独立PNGを作成。人物・髪型・下着は変更していない。
+- `02_design_trials/reina_hair_half_up_front_back_working_v1.png` と `02_design_trials/reina_hair_low_bun_front_back_working_v1.png` をPENDING_UPLOADとして登録。
+- 状態はWORKING / limited reference（髪型の方向性のみ）。正式素材・MASTERではない。
+- ここでデザイン探索の一区切り。次の推奨工程は参照基準の整合性確認と正式三面図の作成。
