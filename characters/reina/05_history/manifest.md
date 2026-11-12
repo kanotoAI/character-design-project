@@ -134,7 +134,7 @@
 #### `02_design_trials/reina_expression_restrained_working_v1.png`
 - status: WORKING
 - use_as_reference: limited（表情の方向性・感情表現の強さに限定）
-- upload_status: PENDING_UPLOAD
+- upload_status: VERIFIED_IN_GITHUB
 - source: 2026-11-12の最新「玲奈 表情サンプル（控えめ表現版）」8表情シート
 - scope:
   - 玲奈らしい落ち着いた表情の方向性
@@ -146,7 +146,7 @@
   - シートのラベルや配置を正式資料デザインとみなすこと
 - notes:
   - ユーザーが「これで移行」として採用した現行の表情探索案。
-  - 画像のGitHubアップロード確認後、表情制作の現行限定参照として有効化。
+  - GitHub上の画像実在確認済み。表情制作の現行限定参照として有効。
   - 直前の旧表情サンプルは旧試作として扱い、通常の制作参照には使わない。GitHubに旧画像の登録はない。
 
 ### MASTER
@@ -154,7 +154,7 @@
 
 ### PENDING
 - 全体デザインは再構築中。直近の体型調整案は次工程の作業基準として採用（ファイル登録確認済み）。
-- 表情は控えめ表現版に方向性を移行。新画像のアップロード確認待ち。
+- 表情は控えめ表現版に方向性を移行。新画像のGitHub登録確認済み。
 - 再構築後、残る APPROVED_REFERENCE 画像について、新デザインとの一致範囲を再確認し、必要に応じて以下のいずれかへ状態更新する：
   - APPROVED_REFERENCE 維持
   - scope限定
