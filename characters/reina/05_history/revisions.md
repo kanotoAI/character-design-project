@@ -56,3 +56,7 @@
 - 新版をWORKING（表情の方向性に限定した作業参照）として登録予定。画像本体はアップロード待ち。
 - 旧表情サンプルは旧試作として参照対象から除外。GitHubへの旧画像登録は確認していない。
 - 顔・髪・目の既存承認は維持。正式表情素材・MASTERには昇格させない。
+
+## 2026-11-12 — 控えめ表情版の画像登録確認
+- `02_design_trials/reina_expression_restrained_working_v1.png` のGitHub上の実在を確認。
+- PENDING_UPLOADを解除し、表情の方向性に限るWORKING参照を有効化。
