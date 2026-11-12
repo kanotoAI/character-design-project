@@ -53,7 +53,7 @@
 
 ### D-008 表情の方向性：控えめ表現版へ移行
 - 状態：WORKING / 方向性採用（最終表情セット未確定）
-- 対象：`02_design_trials/reina_expression_restrained_working_v1.png`（GitHubアップロード待ち）
+- 対象：`02_design_trials/reina_expression_restrained_working_v1.png`（GitHub登録確認済み）
 - 採用：笑顔と驚きの感情表現を前案より控えめにした最新の8表情シートを現行の探索基準とする。
 - 方針：可愛らしさは残しつつ、玲奈らしい落ち着いた大人っぽさを優先する。感情の表現幅は後で追加調整できる。
 - 旧表情サンプルはSUPERSEDED相当の旧試作として、通常の制作参照から外す（GitHub未登録）。
