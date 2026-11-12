@@ -105,7 +105,6 @@
 #### `01_settings/reference_images/reina_approved_eye_detail_v1.png`
 - status: APPROVED_REFERENCE
 - use_as_reference: true
-- upload_status: PENDING_UPLOAD
 - scope:
   - 目の形
   - 上下まつ毛
@@ -126,7 +125,13 @@
 なし。正式透過素材は未制作。
 
 ### PENDING
-- 最新の構成修正版：構成は承認されたが、目詳細が不一致のため基準画像には未昇格。
+- 全体デザインは再構築中。
+- 再構築後、既存の APPROVED_REFERENCE 画像について、新デザインとの一致範囲を再確認し、必要に応じて以下のいずれかへ状態更新する：
+  - APPROVED_REFERENCE 維持
+  - scope限定
+  - SUPERSEDED
+  - ARCHIVE
+- 状態変更は無断で行わず、ユーザー確認後に反映する。
 
 ### REJECTED
 - R-001：①〜⑤の5体比較のうち、ユーザーが明示的にボツ指定した生成版
