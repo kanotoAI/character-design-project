@@ -51,22 +51,6 @@
   - 玲奈の顔・髪・絵柄・雰囲気の主要参照。
   - 画像内の文字情報よりGitHub上の現行正本を優先する。
 
-#### `01_settings/reference_images/reina_reference_body_turnaround_v1.png`
-- status: APPROVED_REFERENCE
-- use_as_reference: true
-- scope:
-  - 旧版の体型バランス・三面図の比較履歴（新作業基準のアップロード確認まで暫定参照）
-  - 黒下着でのスタイル確認の過去資料
-- ignore:
-  - ピンク系の枠線・花装飾
-  - 資料レイアウトそのもの
-  - 画像内の旧文章・旧数値
-  - 他パネルと不一致になっている目の詳細表現
-- notes:
-  - 新作業基準のアップロード後、体型の現行優先参照から外してSUPERSEDEDへ移行予定。
-  - 目の詳細が顔・三面図・表情と不一致の場合、その目詳細部分は参照しない。
-  - バストは `decisions.md` の D-001「2〜3の間②」を優先する。
-
 ### TRIAL / DECISION SUPPORT
 
 #### `01_settings/reference_images/reina_trial_bust_fine_range_v1.png`
@@ -82,6 +66,24 @@
   - 比較検討専用。
   - 現行採用値は「2〜3の間②」。
   - 採用されたのは比較結果であり、この画像全体が正本という意味ではない。
+
+### SUPERSEDED / PREVIOUS BODY REFERENCE
+
+#### `01_settings/reference_images/reina_reference_body_turnaround_v1.png`
+- status: SUPERSEDED
+- use_as_reference: false
+- scope:
+  - 旧体型・旧三面図の履歴比較
+- ignore:
+  - ピンク系の枠線・花装飾
+  - 資料レイアウトそのもの
+  - 画像内の旧文章・旧数値
+  - 他パネルと不一致になっている目の詳細表現
+- notes:
+  - 現行作業基準へ移行済み。通常制作の直接参照から外す。
+  - 目の詳細が顔・三面図・表情と不一致の場合、その目詳細部分は参照しない。
+  - バストは `decisions.md` の D-001「2〜3の間②」を優先する。
+
 
 ### ARCHIVE / NON-REFERENCE
 
@@ -119,22 +121,22 @@
   - 元の玲奈顔デザインを一次原本として詳細化したもの。
   - 目のデザイン内容を参照し、資料装飾をキャラクター正本としない。
 
-### CURRENT WORKING REFERENCE（アップロード待ち）
+### CURRENT WORKING REFERENCE（登録確認済み）
 #### `02_design_trials/reina_body_proportion_working_v1.png`
 - status: WORKING
 - use_as_reference: limited（次工程の体型比率・脚長・頭身の作業基準）
-- upload_status: PENDING_UPLOAD
+- upload_status: VERIFIED_IN_GITHUB
 - source: 直近の「玲奈_体型比率調整_局所版_v1.png」
 - scope: 三面図制作へ進むための体型・頭身・脚長の暫定方向
 - ignore: 正式な最終比率とみなすこと、顔・目・髪の承認済み個別基準を上書きすること
-- notes: ユーザーのOKは作業継続の承認であり、決定稿承認ではない。三面図制作中の調整を許可。アップロード実在確認後に参照状態を有効化する。
+- notes: ユーザーのOKは作業継続の承認であり、決定稿承認ではない。三面図制作中の調整を許可。GitHub上の画像実在確認済み。次工程の作業参照として有効。
 
 ### MASTER
 なし。正式透過素材は未制作。
 
 ### PENDING
-- 全体デザインは再構築中。直近の体型調整案は次工程の作業基準として採用（ファイルアップロード待ち）。
-- 再構築後、既存の APPROVED_REFERENCE 画像について、新デザインとの一致範囲を再確認し、必要に応じて以下のいずれかへ状態更新する：
+- 全体デザインは再構築中。直近の体型調整案は次工程の作業基準として採用（ファイル登録確認済み）。
+- 再構築後、残る APPROVED_REFERENCE 画像について、新デザインとの一致範囲を再確認し、必要に応じて以下のいずれかへ状態更新する：
   - APPROVED_REFERENCE 維持
   - scope限定
   - SUPERSEDED
