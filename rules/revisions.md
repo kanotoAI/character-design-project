@@ -60,3 +60,11 @@
 - STEP 5で背景透過の独立素材を先に作り、STEP 6で正式三面図・資料を組み立てる順序を明文化。
 - 旧版全文を `rules/archive/current_rules_v2.0_trial_2026-11-12.md` に保存。現行は `rules/current_rules.md` v2.1。
 - プロジェクトソース用差し替えファイル：`character_design_project_source_guardrails_v1.md`（ユーザーによる反映待ち）。
+
+
+## 2026-11-12 — プロジェクトソース反映確認（v2.1 同期）
+- ユーザーがChatGPTプロジェクトソースへのガードレールv1.0の登録を報告。
+- この会話でもソース内容（v1.0、GitHub参照義務、禁止事項9件、変更時の両側確認）を読み取れることを確認。
+- GitHub `rules/current_rules.md` v2.1との役割分担を確認し、**GITHUB_UPDATED / PROJECT_SOURCE_UPDATED** として同期待ちを解除。
+- なお、プロジェクトソースはGitHubを自動取得する機構ではない。作業ごとにGitHub現行ルールを明示的に取得する義務は継続。
+- 過去の参照漏れについて、プロジェクトソース未登録はリスク要因の一つだが、GitHub参照手順自体の不徹底も原因として区別する。
