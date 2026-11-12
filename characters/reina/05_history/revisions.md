@@ -60,3 +60,10 @@
 ## 2026-11-12 — 控えめ表情版の画像登録確認
 - `02_design_trials/reina_expression_restrained_working_v1.png` のGitHub上の実在を確認。
 - PENDING_UPLOADを解除し、表情の方向性に限るWORKING参照を有効化。
+
+## 2026-11-12 — 衣装イメージ5点を暫定採用
+- ユーザーが5点（スマートシック、リラックスカジュアル、オフィス、ラベンダーカーディガン、黒ニット＋白カーゴ）を「とりあえずの衣装イメージ」として採用。
+- 5点の画像を画素内容を変えずに `reina_outfit_*_working_v1.png` へリネームし、`02_design_trials/` へのアップロードを準備。
+- 画像本体はPENDING_UPLOAD。アップロード確認まではGitHub登録済みとみなさない。
+- 状態はWORKING / limited reference（衣装方向性のみ）。正式衣装やMASTERへの昇格はしない。
+- 画像内の顔・髪・目・体型・装飾・文字は既存の承認基準を上書きしない。
