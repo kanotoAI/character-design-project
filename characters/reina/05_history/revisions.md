@@ -80,3 +80,9 @@
 - 6枚を600×1480px、白背景、枠・装飾なしのPNGに統一。
 - `02_design_trials/reina_pose_b_*_working_v1.png` 6点をPENDING_UPLOADとして登録。アップロード確認後に有効化。
 - 採用範囲は衣装比較用のBポーズと着用時イメージ。正式衣装・最終体型・MASTERではない。既存衣装単体5点は継続参照。
+
+## 2026-11-12 — Bポーズ衣装比較6枚のアップロード確認
+- `02_design_trials/reina_pose_b_*_working_v1.png` 6点すべてについてGitHub上の実在とblob SHAを確認。
+- manifestの6件のupload_statusをVERIFIED_IN_GITHUBへ更新。
+- WORKING / limited reference（衣装・Bポーズ比較用）のまま継続。正式素材・MASTERではない。
+- 次工程：玲奈のヘアアレンジ探索。初期比較画像はTRIAL扱い。毛先まで描く条件と顔・表情統一の再検討が必要。
