@@ -31,9 +31,10 @@
 
 ## 画像一覧
 
-### APPROVED_REFERENCE
+> **UPLOAD STATUS:** 以下4画像はファイル名・用途・注釈を確定済みだが、画像バイナリ本体はGitHubへ未登録。\n> 実ファイルのアップロード完了までは、GitHub上のpathだけを根拠に画像を参照しない。\n\n### APPROVED_REFERENCE
 
 #### `01_settings/reference_images/reina_reference_face_style_v1.png`
+- upload_status: PENDING_UPLOAD
 - status: APPROVED_REFERENCE
 - use_as_reference: true
 - scope:
@@ -52,6 +53,7 @@
   - 画像内の文字情報よりGitHub上の現行正本を優先する。
 
 #### `01_settings/reference_images/reina_reference_body_turnaround_v1.png`
+- upload_status: PENDING_UPLOAD
 - status: APPROVED_REFERENCE
 - use_as_reference: true
 - scope:
@@ -72,6 +74,7 @@
 ### TRIAL / DECISION SUPPORT
 
 #### `01_settings/reference_images/reina_trial_bust_fine_range_v1.png`
+- upload_status: PENDING_UPLOAD
 - status: TRIAL
 - use_as_reference: limited
 - scope:
@@ -88,6 +91,7 @@
 ### ARCHIVE / NON-REFERENCE
 
 #### `01_settings/reference_images/reina_archive_bust_rough_range_v1.png`
+- upload_status: PENDING_UPLOAD
 - status: ARCHIVE
 - use_as_reference: false
 - scope:
