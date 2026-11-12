@@ -88,3 +88,11 @@
 - 現行ルールを `rules/current_rules.md` v2.2へ改訂。旧v2.1.1全文を `rules/archive/current_rules_v2.1.1_trial_2026-11-12.md` に保存。
 - ChatGPTプロジェクトソースの差し替え用 `character_design_project_source_guardrails_v1.1.md` を作成。**ユーザーによるソース登録・確認待ちであり、両側同期は未完了。**
 - 今回は作業予定の管理ファイルを新設したのみで、玲奈のキャラクター設定・manifest・画像・承認状態は変更しない。
+
+
+## 2026-11-12 — プロジェクトソースv1.1反映確認（v2.2同期完了）
+- ユーザーがChatGPTプロジェクトソースv1.1への差し替え完了を報告。
+- 実際に読み取れたソースv1.1の第「正本と参照」「作業メモ・今後の予定の管理」「ルール変更時の必須・相互確認」をGitHub `rules/current_rules.md` v2.2と照合。
+- ToDoの自動登録・実施検証後のDONE更新・工程条件での提案・日時通知の別途設定・ToDoと実行承認の分離が整合することを確認。**GITHUB_UPDATED / PROJECT_SOURCE_UPDATED（同期確認済み）**。
+- `rules/current_rules.md` のソース差し替え待ち記述を更新し、`planning/roadmap.md` P-003をDONE（完了日2026-11-12）へ変更。
+- `characters/reina/05_history/todo.md` R-001の前提条件も更新。共通ルール同期は完了したが、玲奈のデータ整合性確認は**別途ユーザーの着手指示待ち**のまま。設定・画像・manifest・承認状態は変更していない。
