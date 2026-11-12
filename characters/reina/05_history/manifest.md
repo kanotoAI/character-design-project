@@ -31,7 +31,7 @@
 
 ## 画像一覧
 
-> **UPLOAD STATUS:** 以下4画像はファイル名・用途・注釈を確定済みだが、画像バイナリ本体はGitHubへ未登録。\n> 実ファイルのアップロード完了までは、GitHub上のpathだけを根拠に画像を参照しない。\n\n### APPROVED_REFERENCE
+### APPROVED_REFERENCE
 
 #### `01_settings/reference_images/reina_reference_face_style_v1.png`
 - status: APPROVED_REFERENCE
