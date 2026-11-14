@@ -72,3 +72,9 @@
 - GitHub Contents API一覧で **436,348 bytes**、Git blob SHA **`e6bd1e827f098df923d59fc219517cb80a780d30`** と確認。
 - 会話添付の原本候補（`AYA_ROUND_02_source_candidate.jpeg`）の **436,348 bytes**、SHA-256 **`b345525922e339443b35ec949a65f3dd1022d490983b7585d462ed861f281924`**、Git blob SHA **`e6bd1e827f098df923d59fc219517cb80a780d30`** と一致。**GitHubに登録されたファイルは添付原本とバイト単位で同一と判定**。
 - GitHub `fetch_file(..., encoding=base64)` による登録原本の読み戻しと、画像生成ツールへの受け渡しは**未検証**。正式資料への昇格ではなく作業基準候補の原本登録。
+
+## 2026-11-14 ROUND 02 原本のGitHub読み戻し試験
+- `fetch_file(repository_full_name=kanotoAI/character-design-project, path=characters/aya/03_trials/AYA_ROUND_02_source_candidate.jpeg, encoding=base64)` が**成功**。Git blob SHA `e6bd1e827f098df923d59fc219517cb80a780d30` を取得、Base64 JPEGデータ（改行含む591,497文字）を確認。
+- この結果はGitHubコネクタから原本の**符号化データを読み出せる**ことの確認。Git blob SHAは登録時と一致。
+- 一方、画像編集環境へのバイナリファイルとしての引き渡しは**未達成**。GitHubからコンテナへの直接HTTPSダウンロードはDNS解決エラー。コネクタの返すBase64をローカル画像ファイルへ受け渡す仕組みが必要。
+- したがって「GitHub画像を指定して自動的に画像生成ツールの参照入力にする」経路は未検証。現時点では会話添付原本を使った画像編集は可能だが、それはGitHub経由の入力成功を意味しない。
