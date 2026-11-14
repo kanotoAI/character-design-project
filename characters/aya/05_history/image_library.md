@@ -59,3 +59,10 @@
 - `fetch_blob` で同SHAの読み出しを試したが、`UnicodeDecodeError`（PNGバイナリをUTF-8として解釈）で失敗。**GitHubコネクタ単独での画像再取得は未成立**。
 - 会話添付のROUND 02（JPEG 1254×1254、約427KiB）は作業環境に存在するが、作業環境のファイルバイト列をGitHubコネクタに直接受け渡す機能は確認できず、**画像本体は未アップロード**。テキストの台帳だけがリポジトリに存在する。
 - 次は画像バイト列を安全にGitHubへ転送できる別経路（GitHub API認証付きアップロード可能な環境や対応コネクタ）を検討し、実画像のコミットと再取得の両方を確認する。
+
+## 2026-11-14 検証ブランチでの小画像登録・読み戻し成功
+- メインブランチの同時更新競合を回避するため、検証専用ブランチ `test/aya-image-binary-pipeline-20261114` を作成。
+- 32×32 pxのROUND 02由来JPEG検証用縮小画像を `characters/aya/03_trials/_pipeline_probe/aya_round02_32px_probe.jpg` にコミット。Git blob SHA `0322749d2d20357ffb8c26684e8df7797dae85ee`。
+- GitHub `fetch_file` に `ref` と `encoding=base64` を指定すると、同一SHAでBase64内容を取得できた。`fetch_blob` はUTF-8デコードエラーとなるため、バイナリ読み出しには `fetch_file(...,encoding=base64)` を使用する。
+- **検証画像は原本ではない。** 元画像1254×1254 pxのJPEG（SHA-256 `b345525922e339443b35ec949a65f3dd1022d490983b7585d462ed861f281924`）はGitHub未登録。ローカル原本バイト列をコネクタへ自動転送する方法と、読み戻しデータを編集環境へ受け渡す方法は引き続き未確立。
+- 検証ブランチはmainへ未マージ。正式資料への昇格・上書きなし。
