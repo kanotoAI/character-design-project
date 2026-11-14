@@ -66,3 +66,9 @@
 - GitHub `fetch_file` に `ref` と `encoding=base64` を指定すると、同一SHAでBase64内容を取得できた。`fetch_blob` はUTF-8デコードエラーとなるため、バイナリ読み出しには `fetch_file(...,encoding=base64)` を使用する。
 - **検証画像は原本ではない。** 元画像1254×1254 pxのJPEG（SHA-256 `b345525922e339443b35ec949a65f3dd1022d490983b7585d462ed861f281924`）はGitHub未登録。ローカル原本バイト列をコネクタへ自動転送する方法と、読み戻しデータを編集環境へ受け渡す方法は引き続き未確立。
 - 検証ブランチはmainへ未マージ。正式資料への昇格・上書きなし。
+
+## 2026-11-14 ROUND 02 原本GitHub登録・同一性確認
+- ユーザーが `characters/aya/03_trials/AYA_ROUND_02_source_candidate.jpeg` に原本候補を手動アップロード。
+- GitHub Contents API一覧で **436,348 bytes**、Git blob SHA **`e6bd1e827f098df923d59fc219517cb80a780d30`** と確認。
+- 会話添付の原本候補（`AYA_ROUND_02_source_candidate.jpeg`）の **436,348 bytes**、SHA-256 **`b345525922e339443b35ec949a65f3dd1022d490983b7585d462ed861f281924`**、Git blob SHA **`e6bd1e827f098df923d59fc219517cb80a780d30`** と一致。**GitHubに登録されたファイルは添付原本とバイト単位で同一と判定**。
+- GitHub `fetch_file(..., encoding=base64)` による登録原本の読み戻しと、画像生成ツールへの受け渡しは**未検証**。正式資料への昇格ではなく作業基準候補の原本登録。
