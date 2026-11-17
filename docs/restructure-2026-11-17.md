@@ -23,6 +23,6 @@
 
 ### 復元可能性の境界
 整理作業開始前のmainコミットを `backup/pre-restructure-2026-11-17` ブランチに固定。
-編集はまず `restructure/learning-first-2026-11-17` 上のみで行う。mainはレビュー・比較後に更新。
+編集は `restructure/learning-first-2026-11-17` 上で提案・レビューし、mainへの統合はPRの履歴により追跡する。
 元の状態は `backup/pre-restructure-2026-11-17` を閲覧・再チェックアウトして復元できる。mainの破壊的resetや強制pushは不要。
 ChatGPTのプロジェクトソースはGitHubブランチと連動しないため、別途ファイルを保存して手動差し替えが必要。
